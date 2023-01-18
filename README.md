@@ -18,7 +18,7 @@ Values for p typically range from 1 to 10. The accuracy of each weak learner is 
 <br>
 <br>
 
-<b>References</b>
+**References**
 
 [1]	Robnik-Šikonja, M. (2004), “Improving Random Forests,” Machine Learning: ECML 2004. ECML 2004. Lecture Notes in Computer Science(), vol 3201. Springer, Berlin, Heidelberg.
 
