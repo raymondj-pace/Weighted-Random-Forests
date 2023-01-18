@@ -1,9 +1,9 @@
-Weighted Weak Learners for Random Forests
+<p style="text-align: center;">Weighted Weak Learners for Random Forests</p>
 
 
-Ray Jennings III
-Computer Science Department, Pace University, New York, NY, USA
-rj07609p@pace.edu
+<p style="text-align: center;">Ray Jennings III</p>
+<p style="text-align: center;">Computer Science Department, Pace University, New York, NY, USA</p>
+<p style="text-align: center;">rj07609p@pace.edu</p>
 
 The predictions from a random forest are based on the aggregate votes from the set of weak learners that comprise the random forest. The aggregation is commonly done by using majority voting where each weak learner has a vote of 1 for the class that it predicted. The class with the largest number of votes is used for the final prediction. The weak learners can sometimes be created with varying degrees of performance. This can, at times, be caused by the data selected during the bootstrapping where some weak learners might not see the entire set of classes. Previous works have shown that using a weighted vote instead of a majority vote can frequently improve the accuracy of a random forest. One technique [1] is to use only a subset of the weak learners where the subset is chosen based on a similarity measure between instances already seen. This technique requires additional execution time for the similarity calculation, plus additional memory to save the information at every leaf node. Another technique used [2] is to weight each of the weak learners by the performance based on the OOB data. I propose a method where a weight for each weak learner is assigned as:
 
